@@ -1,0 +1,284 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lora', serif;
+  font-family: 'Oswald', sans-serif;
+    color:white;
+    text-align: center;
+    background-color:#b646d8;
+    text-align: center;
+}
+.contenedor{
+  width: 1140px;
+  margin: 0 auto;
+  padding: 1px;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color:rgb(255, 211, 253);
+  padding-right: 10px;
+}
+a:hover{
+  color:rgba(162, 0, 255, 0.897);
+}
+.logo{
+  display: block;
+  width: 175px;
+  height: 50px;
+  margin-top: 0px;
+  background: url(img/logo-flor.png) no-repeat 0 0 scroll;
+  font-size: 0;
+  background-size: 100%;
+}
+.d-nav{
+  display: flex;
+  font-family: 'Oswald', sans-serif;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 75px; 
+  align-items: center;
+  background-color: #ff26edcc;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 0 200px;
+
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+  font-size: 20px;
+}
+.pres{
+  background-image: url(img/portada.jpg);
+  background-position: left top;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: 250px;
+  padding-top: 250px;
+}
+header p {
+  font-size: 35px;
+  margin-bottom: 1px;
+}
+header h1 {
+  font-size: 50px;
+  margin: 0 auto;
+}
+.borde{
+  font-family: 'Josefin Sans', sans-serif;
+  
+    border:solid 5px rgba(255, 255, 255, 0.801);
+    padding-top: 30px;
+    background-color: rgba(162, 0, 255, 0.5);
+    width: 690px;
+    height: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:20px;
+}
+#bienvenidos{
+      background-color:#ff26edcc;
+      padding-top: 15px;
+}
+.tex1{
+   font-family: 'Josefin Sans', sans-serif;
+    width: 1250px;
+    margin-top: 20px;
+    font-size: 25px ;
+}    
+.subs{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-size: 35px ; 
+  color: #501145d2;
+}
+
+
+.links{
+  margin-top:100px ;
+  color: #330042;
+  font-size: 38px;
+}
+.titulos{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 10px;
+  font-size: 25px ;
+}
+.avatar{
+  padding-left: 403px;
+}
+.datos1{
+     font-family: 'Josefin Sans', sans-serif;
+  list-style-type: circle;
+  font-size: 18px;
+}
+.tex-n{
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  font-size: 23px;
+ }
+.presentacion{
+  width: 1200px;
+  text-align: left;
+}
+.cta{
+  display:block;
+  text-align: center;
+  border-radius: 5%;
+  font-size: 17px;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#ff26edcc;
+  background-color:#501145d2;
+  width: 200px;
+  height: 63px;
+  margin-left: 470px;
+  padding-top: 2px ;
+  padding-left: 10px;
+  margin-right: auto;
+
+}
+
+
+.flexbox1,.flexbox2{
+  display: flex;
+justify-content: space-between;
+  padding-top:50px;
+}
+.flexbox2{
+  flex-direction: row-reverse;
+}
+.t2{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-size: 30px ; 
+  color: #501145d2;
+  text-align:right;
+}
+.t1{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-size: 30px ; 
+  color: #501145d2;
+  text-align:left;  
+}
+.tex-trabajos1{
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align:justify;
+}
+.tex-trabajos2{
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align:justify;
+ 
+} 
+.tex-trabajos1 p{
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align:right;
+}
+.tex-trabajos2 p{
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 10px;
+  font-size: 20px;
+ text-align:left;
+
+} 
+
+
+
+
+.programa{
+  display: inline;
+  text-align: center;
+}
+.programa p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+h3{
+  font-size: 25px;
+}
+.h2{
+  font-size: 30px;
+
+
+
+  
+}
+.inspiracion{
+width: 1000px;
+margin: auto;
+padding: 10px 10px;
+}
+.got7{
+  z-index: 2;
+  top: 20px;
+  background-color: #00000062;
+  color: rgb(255, 255, 255);
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+.cartel{
+font-size: 18px;
+text-align: center;  
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-bottom:2px;
+color: rgba(255, 255, 255, 0.89);
+
+}
+.got7-text{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;  
+}
+.got7-ti{
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;  
+}
+.got7 article{
+text-align: center; 
+width: 500px;
+
+}
+.got7 figure {
+  text-align: center;
+
+}
+#redes,#sobremi,#trabajos{
+  background-color:#ff26edcc;
+
+}
+#programas,#inspiracionidols{
+  background-color:#b646d8;
+
+}
+.footer{
+  background-color:#ff26edcc;
+  color:#000000;
+ 
+}
+.redes{
+  display: inline-flex;
+   text-align: center;
+   padding-left: 5px;
+  }
+  
